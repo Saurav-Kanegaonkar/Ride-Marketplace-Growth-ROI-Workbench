@@ -1,4 +1,25 @@
-"entity_id","entity_type","domain"
-"E-001","rideshare marketplace ROI","growth analytics dashboard"
-"E-002","stakeholder","operations"
-"E-003","metric_owner","analytics"
+entity_id,entity_name,entity_type,segment,owner_team,region_or_scope,business_priority,risk_tier
+ENT001,Inventory node 1,Attribution path,Strategic,Operations,Enterprise,Medium,High
+ENT002,Campaign cohort 2,SKU family,At Risk,Analytics,National,Medium,High
+ENT003,Event stream 3,SKU family,Core,Growth,Remote,Medium,High
+ENT004,SKU family 4,SKU family,Experimental,Analytics,Enterprise,Low,Medium
+ENT005,Event stream 5,Attribution path,Experimental,Marketing,Remote,Low,High
+ENT006,SKU family 6,Attribution path,Core,Growth,Remote,Low,Medium
+ENT007,Event stream 7,Event stream,Experimental,Merchandising,Remote,High,High
+ENT008,Campaign cohort 8,Attribution path,Experimental,Data engineering,Enterprise,Low,High
+ENT009,Event stream 9,Order funnel,Strategic,Merchandising,Enterprise,High,Medium
+ENT010,Attribution path 10,SKU family,Strategic,Analytics,West,Medium,High
+ENT011,Campaign cohort 11,Attribution path,Core,Analytics,Remote,High,Low
+ENT012,Campaign cohort 12,Order funnel,Emerging,Marketing,National,Medium,Low
+ENT013,Order funnel 13,Event stream,Core,Merchandising,Enterprise,Low,Medium
+ENT014,Event stream 14,Inventory node,Experimental,Data engineering,National,High,High
+ENT015,Inventory node 15,Inventory node,Emerging,Growth,Central,High,High
+ENT016,Inventory node 16,Campaign cohort,At Risk,Growth,East,High,High
+ENT017,Attribution path 17,Attribution path,Strategic,Merchandising,West,Medium,Low
+ENT018,User segment 18,User segment,Experimental,Data engineering,Central,Medium,High
+ENT019,Inventory node 19,User segment,Experimental,Growth,National,Medium,High
+ENT020,SKU family 20,Attribution path,Strategic,Data engineering,West,Low,Medium
+ENT021,Campaign cohort 21,User segment,Experimental,Merchandising,Enterprise,Low,High
+ENT022,Inventory node 22,Order funnel,Experimental,Operations,East,Medium,High
+ENT023,Attribution path 23,Inventory node,At Risk,Operations,National,High,Medium
+ENT024,Inventory node 24,Attribution path,At Risk,Data engineering,National,High,Low
