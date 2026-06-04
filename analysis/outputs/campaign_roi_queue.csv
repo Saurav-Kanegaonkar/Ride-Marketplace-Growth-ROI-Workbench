@@ -1,0 +1,73 @@
+market,stage,channel,channel_group,spend,incremental_rides,completed_rides,supply_coverage_pct,rider_repeat_rate_pct,roi,incremental_rides_per_100_driver_hours
+Capital Core,Core,Driver referral,Referral,26968,4239,7252,91.0,78.0,1.91,0.51
+Capital Core,Core,In-vehicle cards,Field marketing,64221,9836,17405,91.0,78.0,1.83,1.19
+Metro Outer Boroughs,Scale,In-vehicle cards,Field marketing,49000,7236,12401,73.0,69.0,1.73,3.02
+Metro Outer Boroughs,Scale,Driver referral,Referral,19407,2695,4748,73.0,69.0,1.57,1.12
+Capital Core,Core,Rider referral,Referral,27517,3788,6531,91.0,78.0,1.55,0.46
+Capital Core,Core,Paid social,Paid media,184233,24476,41005,91.0,78.0,1.46,2.96
+Harbor Commuter,Core,In-vehicle cards,Field marketing,64587,8506,14195,86.0,82.0,1.44,1.09
+Metro Outer Boroughs,Scale,Rider referral,Referral,20936,2753,4839,73.0,69.0,1.43,1.15
+Capital Core,Core,Welcome drip,Lifecycle,4971,636,1210,91.0,78.0,1.37,0.08
+Capital Core,Core,Vehicle exterior ads,Field marketing,119699,15292,25843,91.0,78.0,1.36,1.85
+Metro Outer Boroughs,Scale,Vehicle exterior ads,Field marketing,87301,11111,19114,73.0,69.0,1.35,4.63
+Metro Outer Boroughs,Scale,Welcome drip,Lifecycle,3702,458,867,73.0,69.0,1.29,0.19
+Metro Outer Boroughs,Scale,Paid social,Paid media,139624,17104,29195,73.0,69.0,1.27,7.14
+Metro Outer Boroughs,Scale,Winback drip,Lifecycle,3391,397,807,73.0,69.0,1.17,0.17
+Capital Core,Core,Winback drip,Lifecycle,4695,536,1049,91.0,78.0,1.11,0.06
+Harbor Commuter,Core,Driver referral,Referral,26985,3069,5374,86.0,82.0,1.1,0.39
+Harbor Commuter,Core,Vehicle exterior ads,Field marketing,113905,12636,21982,86.0,82.0,1.05,1.62
+South Florida Launch,Launch,Driver referral,Referral,34940,3793,6294,62.0,73.0,1.01,1.26
+South Florida Launch,Launch,In-vehicle cards,Field marketing,86293,9304,15806,62.0,73.0,0.99,3.08
+Harbor Commuter,Core,Paid social,Paid media,189090,20367,33650,86.0,82.0,0.99,2.62
+South Florida Launch,Launch,Vehicle exterior ads,Field marketing,156654,16623,27595,62.0,73.0,0.96,5.51
+Harbor Commuter,Core,Welcome drip,Lifecycle,4859,514,969,86.0,82.0,0.96,0.07
+Capital Core,Core,Paid search,Paid media,172880,17722,30119,91.0,78.0,0.9,2.14
+Metro Outer Boroughs,Scale,Paid search,Paid media,125946,12573,21608,73.0,69.0,0.85,5.24
+Harbor Commuter,Core,Rider referral,Referral,29814,2957,5057,86.0,82.0,0.83,0.38
+South Florida Launch,Launch,Welcome drip,Lifecycle,6156,608,1089,62.0,73.0,0.83,0.2
+Gulf Launch,Launch,In-vehicle cards,Field marketing,77690,7619,12960,55.0,61.0,0.81,2.84
+South Florida Launch,Launch,Rider referral,Referral,36100,3454,6122,62.0,73.0,0.77,1.15
+Gulf Launch,Launch,Driver referral,Referral,36217,3257,5635,55.0,61.0,0.66,1.22
+Harbor Commuter,Core,Winback drip,Lifecycle,4375,387,748,86.0,82.0,0.64,0.05
+North Texas Launch,Launch,Driver referral,Referral,32794,2891,4995,52.0,64.0,0.63,1.14
+South Florida Launch,Launch,Paid social,Paid media,238442,20806,36277,62.0,73.0,0.61,6.9
+South Florida Launch,Launch,Winback drip,Lifecycle,5673,483,963,62.0,73.0,0.58,0.16
+Gulf Launch,Launch,Welcome drip,Lifecycle,6410,536,1003,55.0,61.0,0.55,0.2
+North Texas Launch,Launch,In-vehicle cards,Field marketing,83833,6918,11894,52.0,64.0,0.53,2.73
+Harbor Commuter,Core,Paid search,Paid media,168009,13604,24136,86.0,82.0,0.5,1.75
+Gulf Launch,Launch,Rider referral,Referral,34162,2736,4831,55.0,61.0,0.48,1.02
+Southeast Launch,Launch,Driver referral,Referral,34801,2717,4829,49.0,58.0,0.44,1.13
+Gulf Launch,Launch,Vehicle exterior ads,Field marketing,148742,11510,19255,55.0,61.0,0.43,4.3
+Capital Core,Core,Organic social,Organic,7843,599,1132,91.0,78.0,0.41,0.07
+South Florida Launch,Launch,Paid search,Paid media,203992,15358,26825,62.0,73.0,0.39,5.09
+Gulf Launch,Launch,Paid social,Paid media,249690,18633,31340,55.0,61.0,0.38,6.96
+North Texas Launch,Launch,Vehicle exterior ads,Field marketing,151131,11243,18894,52.0,64.0,0.38,4.43
+Gulf Launch,Launch,Winback drip,Lifecycle,5562,409,810,55.0,61.0,0.36,0.15
+Southeast Launch,Launch,Vehicle exterior ads,Field marketing,148989,10844,18326,49.0,58.0,0.35,4.52
+Southeast Launch,Launch,Rider referral,Referral,37913,2674,4690,49.0,58.0,0.3,1.11
+Southeast Launch,Launch,In-vehicle cards,Field marketing,85884,5960,10278,49.0,58.0,0.28,2.48
+North Texas Launch,Launch,Rider referral,Referral,37395,2573,4508,52.0,64.0,0.27,1.01
+Southeast Launch,Launch,Paid social,Paid media,234448,15957,27235,49.0,58.0,0.26,6.66
+Gulf Launch,Launch,Paid search,Paid media,228068,15111,25062,55.0,61.0,0.23,5.64
+North Texas Launch,Launch,Welcome drip,Lifecycle,6509,428,823,52.0,64.0,0.22,0.17
+Southeast Launch,Launch,Welcome drip,Lifecycle,6216,399,766,49.0,58.0,0.19,0.17
+North Texas Launch,Launch,Paid social,Paid media,234034,14735,24628,52.0,64.0,0.16,5.81
+North Texas Launch,Launch,Winback drip,Lifecycle,5820,366,730,52.0,64.0,0.16,0.14
+Triad Local,Emerging,In-vehicle cards,Field marketing,46469,2835,4866,66.0,77.0,0.13,1.31
+Harbor Commuter,Core,Organic social,Organic,8053,492,922,86.0,82.0,0.13,0.06
+South Florida Launch,Launch,Organic social,Organic,10380,613,1126,62.0,73.0,0.09,0.2
+Metro Outer Boroughs,Scale,Organic social,Organic,5958,347,709,73.0,69.0,0.08,0.14
+Triad Local,Emerging,Vehicle exterior ads,Field marketing,82322,4608,7937,66.0,77.0,0.04,2.12
+North Texas Launch,Launch,Paid search,Paid media,215754,11767,20548,52.0,64.0,0.01,4.64
+Triad Local,Emerging,Rider referral,Referral,20930,1094,1996,66.0,77.0,-0.03,0.5
+Southeast Launch,Launch,Winback drip,Lifecycle,5908,303,604,49.0,58.0,-0.05,0.13
+Triad Local,Emerging,Driver referral,Referral,20843,1050,1871,66.0,77.0,-0.07,0.48
+Southeast Launch,Launch,Paid search,Paid media,213486,10126,17336,49.0,58.0,-0.12,4.22
+Triad Local,Emerging,Paid social,Paid media,128916,6134,10618,66.0,77.0,-0.12,2.82
+Gulf Launch,Launch,Organic social,Organic,10226,484,910,55.0,61.0,-0.12,0.18
+Triad Local,Emerging,Paid search,Paid media,129682,5323,9248,66.0,77.0,-0.24,2.45
+Southeast Launch,Launch,Organic social,Organic,10644,407,811,49.0,58.0,-0.29,0.17
+North Texas Launch,Launch,Organic social,Organic,10350,387,751,52.0,64.0,-0.31,0.15
+Triad Local,Emerging,Welcome drip,Lifecycle,3622,125,302,66.0,77.0,-0.36,0.06
+Triad Local,Emerging,Winback drip,Lifecycle,3289,87,235,66.0,77.0,-0.51,0.04
+Triad Local,Emerging,Organic social,Organic,5913,101,264,66.0,77.0,-0.68,0.05

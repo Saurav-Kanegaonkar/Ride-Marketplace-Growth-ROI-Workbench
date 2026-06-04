@@ -1,60 +1,93 @@
 # Ride Marketplace Growth ROI Workbench
 
-## Motivation
+Portfolio artifact for a Business Analyst role supporting a peer-to-peer ride marketplace software platform. The workbench shows how a small growth and operations team can decide where to scale rider acquisition, lifecycle drip campaigns, vehicle-exterior advertising, in-vehicle marketing, referrals, organic social, and paid media without wasting spend in markets that lack enough driver supply.
 
-Marketplace operators need to know which acquisition, drip, paid media, and in-vehicle campaigns actually move trips without wasting local spend.
+## Portfolio Surface
 
-This project is intentionally scoped as a practical decision artifact: it shows how I would organize source data, surface the operating signal, and turn the analysis into a recommendation that a product, analytics, or operations team could discuss immediately.
+The artifact is a browser-based operating workbench with four surfaces:
 
-## What Is In The Project
+- **Market ROI cockpit:** ranks markets and campaign channels by modeled growth ROI, incremental rides, supply coverage, repeat usage, and incremental rides per 100 available driver hours.
+- **Drip campaign lab:** compares trigger-based lifecycle campaigns using open rate, click rate, holdout conversion, lift, and incremental rides.
+- **Field marketing planner:** evaluates vehicle-exterior and in-vehicle placements by QR source tags, completed rides, program cost, estimated value, and supply guardrails.
+- **Recommendation memo:** converts the analysis into owner-specific next steps for growth analytics, marketplace operations, lifecycle marketing, and field operations.
 
-- A browser-based analytical dashboard in `index.html`
-- Source-style synthetic data in `data/`
-- Analysis notes in `analysis/`
-- A data dictionary in `data_dictionary.md`
-- A rendered screenshot in `docs/images/dashboard.png`
+## Screenshots
 
-## Data Inventory
+![Market ROI cockpit](docs/images/market-roi-cockpit.png)
 
-- Six source-style CSVs back the project instead of a tiny sample dataset.
-- The data folder now includes 2,880 daily metric records, 720 source events, 360 data-quality checks, and 90 recommended actions.
-- The analysis folder includes a data profile and recommendations that explain how the evidence should drive product or operating decisions.
-- The `scripts/score_operating_data.py` script ranks entity priorities and data-quality hotspots from the CSVs.
+**Market ROI cockpit:** identifies markets where paid, organic, referral, lifecycle, and field marketing spend can scale because completed rides and driver-hour coverage support the demand.
 
-## What The Data Says
+![Drip campaign lab](docs/images/drip-campaign-lab.png)
 
-- Driver-side supply gaps distort acquisition ROI when rider campaigns are judged without market capacity context.
-- Drip campaigns improve retention most when triggered by first-ride completion rather than account creation.
-- Vehicle-exterior advertising works best in dense markets, but only after excluding markets with low repeat usage.
+**Drip campaign lab:** compares lifecycle triggers by lift against holdout conversion so retention recommendations do not rely only on open rates.
 
-## Analytical Recommendations
+![Field marketing planner](docs/images/field-marketing-planner.png)
 
-- Score every campaign by incremental rides per available driver hour, not only acquisition cost.
-- Move inactive riders into behavior-triggered drip sequences after first ride, cancellation, or referral events.
-- Shift paid media away from markets where supply saturation blocks conversion into completed rides.
+**Field marketing planner:** links vehicle-exterior and in-vehicle placements to QR scans, ride requests, completed rides, ROI, and data quality gates.
 
-## Output Walkthrough
+## Data Strategy
 
-### Output 1: Executive Pulse
+The project uses synthetic but role-realistic operating data. It is not real company performance data.
 
-The KPI cards summarize the current operating condition and identify whether the team should trust, investigate, or act.
+The synthetic structure is modeled on public ride marketplace patterns: multi-market expansion, driver-side supply constraints, riders seeking lower fares, trusted or favorite-driver behavior, subscription-style driver economics, referral incentives, paid media, organic social, lifecycle messaging, vehicle-exterior advertising, and in-vehicle placements.
 
-### Output 2: Diagnostic Queue
+The generator in `scripts/build_growth_artifact.py` uses a fixed random seed and creates:
 
-The table ranks the highest-priority signals by owner group, status, evidence, and risk.
+| Dataset | Grain | Rows | Purpose |
+|---|---:|---:|---|
+| `data/markets.csv` | Market snapshot | 8 | Supply coverage, repeat usage, demand, trust-request share, and growth-stage segmentation |
+| `data/campaign_performance.csv` | Date x market x channel | 8,640 | Acquisition, lifecycle, referral, field, organic, and paid media ROI analysis |
+| `data/drip_experiments.csv` | Market x trigger | 40 | Holdout lift, open rate, click rate, conversion, and incremental rides |
+| `data/field_marketing_tests.csv` | Market x placement | 40 | Vehicle and in-vehicle program ROI using QR source tags |
+| `data/data_quality_checks.csv` | Source table x check | 20 | Freshness, null, duplicate, definition drift, and outlier controls |
 
-### Output 3: Recommendation Memo
+Key assumptions:
 
-The recommendation section converts the dashboard into specific next moves for the operating team.
+- Launch markets have lower supply coverage and higher growth indices.
+- Core markets have larger ride request volume and stronger repeat usage.
+- Campaign ROI is penalized when driver supply coverage is too low to convert rider requests into completed rides.
+- Drip campaigns include holdout conversion so lift can be discussed as an experiment-style measure.
+- Field marketing value uses estimated downstream ride value rather than only first-ride fare value, which is documented so the scope is clear.
 
-## Screenshot
+## Role Relevance
 
-![Ride Marketplace Growth ROI Workbench dashboard](docs/images/dashboard.png)
+This artifact demonstrates the work expected from an entry-level Business Analyst in a fast-moving marketplace environment:
 
-## Run Locally
+- building and using analytical tools to improve acquisition, retention, engagement, and platform usage
+- managing custom dashboards for dynamic marketplace operations
+- analyzing drip campaign open rates, conversion, and effectiveness
+- evaluating paid media ROI with marketplace guardrails
+- turning vehicle-exterior, in-vehicle, referral, and organic social programs into measurable operating decisions
+- writing concise recommendations that connect data to action
+
+## How To Run
 
 ```bash
 python3 -m http.server 4173
 ```
 
 Then open `http://localhost:4173`.
+
+To regenerate the data and app payload:
+
+```bash
+python3 scripts/build_growth_artifact.py
+```
+
+## Scope Statement
+
+This project does:
+
+- model the decision logic for a ride marketplace growth team
+- expose the source-style CSVs and reproducible generator
+- show how acquisition ROI changes when supply coverage is included
+- compare lifecycle triggers with holdout lift
+- connect field marketing placements to tagged conversion and quality controls
+
+This project does not:
+
+- claim to represent real company performance
+- use private marketplace data
+- optimize dispatch, pricing, or matching algorithms
+- replace a production BI stack or experimentation platform
+

@@ -1,0 +1,9 @@
+market_id,market,stage,modeled_weekly_requests,modeled_weekly_completed_rides,available_driver_hours,active_drivers,rider_repeat_rate_pct,supply_coverage_pct,cancellation_rate_pct,avg_rider_savings_pct,market_growth_index,trust_request_share_pct
+MKT-DC,Capital Core,Core,1903,1444,6885.5,293,78.0,91.0,10.9,19.8,112.0,74.0
+MKT-BAL,Harbor Commuter,Core,1653,1236,6486.0,276,82.0,86.0,10.1,19.8,104.0,68.0
+MKT-NYC,Metro Outer Boroughs,Scale,736,528,1997.5,85,69.0,73.0,13.7,21.3,118.0,71.0
+MKT-MIA,South Florida Launch,Launch,932,645,2514.5,107,73.0,62.0,15.7,19.2,136.0,65.0
+MKT-HOU,Gulf Launch,Launch,851,575,2232.5,95,61.0,55.0,14.7,18.5,142.0,58.0
+MKT-DFW,North Texas Launch,Launch,821,549,2115.0,90,64.0,52.0,14.3,19.7,138.0,57.0
+MKT-ATL,Southeast Launch,Launch,790,523,1997.5,85,58.0,49.0,13.9,18.7,145.0,54.0
+MKT-GSO,Triad Local,Emerging,399,280,1809.5,77,77.0,66.0,14.2,20.2,102.0,62.0

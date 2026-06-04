@@ -1,0 +1,19 @@
+market_id,market,program_id,trigger,cohort,messages_sent,open_rate_pct,click_rate_pct,conversion_rate_pct,holdout_conversion_rate_pct,lift_pct,incremental_rides,estimated_value,deployment_status
+MKT-DFW,North Texas Launch,DRIP-QUIET,Dormant rider winback,Dormant,1490,37.2,10.9,23.8,14.0,70.3,16,165,Scale
+MKT-NYC,Metro Outer Boroughs,DRIP-QUIET,Dormant rider winback,Dormant,3770,31.6,11.8,26.6,16.9,57.6,43,470,Needs QA
+MKT-ATL,Southeast Launch,DRIP-REFERRAL,Referral nudge,Advocate,3828,40.3,15.0,24.1,15.6,54.3,48,491,Tune copy
+MKT-DFW,North Texas Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,5952,47.5,20.2,31.0,20.7,50.2,125,1370,Needs QA
+MKT-ATL,Southeast Launch,DRIP-FIRST,First ride completion,New rider,2476,49.6,18.4,32.8,22.1,48.7,48,652,Scale
+MKT-MIA,South Florida Launch,DRIP-QUIET,Dormant rider winback,Dormant,4848,30.6,14.0,22.5,15.4,45.8,47,605,Needs QA
+MKT-GSO,Triad Local,DRIP-CANCEL,Canceled request recovery,At risk,3917,42.5,17.2,29.2,20.0,45.8,61,866,Needs QA
+MKT-HOU,Gulf Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,3795,40.0,17.7,31.5,21.7,45.3,65,884,Pilot
+MKT-ATL,Southeast Launch,DRIP-CANCEL,Canceled request recovery,At risk,5655,37.5,16.1,33.1,23.3,42.4,89,1104,Pilot
+MKT-NYC,Metro Outer Boroughs,DRIP-REFERRAL,Referral nudge,Advocate,2286,38.1,13.2,25.4,18.0,40.9,22,301,Needs QA
+MKT-GSO,Triad Local,DRIP-FIRST,First ride completion,New rider,2904,47.5,18.5,38.8,28.0,38.7,58,812,Scale
+MKT-GSO,Triad Local,DRIP-QUIET,Dormant rider winback,Dormant,2014,30.2,11.6,23.3,16.8,38.5,15,150,Tune copy
+MKT-GSO,Triad Local,DRIP-REFERRAL,Referral nudge,Advocate,2935,43.4,14.0,31.0,22.5,37.9,35,437,Pilot
+MKT-BAL,Harbor Commuter,DRIP-QUIET,Dormant rider winback,Dormant,6381,34.0,13.5,28.9,21.3,35.8,65,868,Scale
+MKT-ATL,Southeast Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,2563,47.6,20.3,32.4,23.9,35.8,44,528,Needs QA
+MKT-DC,Capital Core,DRIP-QUIET,Dormant rider winback,Dormant,9780,35.0,14.0,28.1,21.1,33.3,95,1273,Needs QA
+MKT-BAL,Harbor Commuter,DRIP-CANCEL,Canceled request recovery,At risk,8831,41.7,17.2,31.3,23.7,32.1,115,1273,Scale
+MKT-BAL,Harbor Commuter,DRIP-FIRST,First ride completion,New rider,4886,48.2,20.4,40.7,30.9,31.7,97,1212,Needs QA

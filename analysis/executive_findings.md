@@ -1,11 +1,13 @@
 # Executive Findings
 
-- Driver-side supply gaps distort acquisition ROI when rider campaigns are judged without market capacity context.
-- Drip campaigns improve retention most when triggered by first-ride completion rather than account creation.
-- Vehicle-exterior advertising works best in dense markets, but only after excluding markets with low repeat usage.
+- Blended modeled growth ROI is 0.58x across 447,719 incremental rides.
+- 4 markets clear the supply hurdle for acquisition scaling.
+- The strongest lifecycle trigger is Dormant rider winback at 70.3% modeled lift.
+- 4 field placements clear the scale hurdle after matching QR source tags to completed rides.
 
 ## Recommendations
 
-- Score every campaign by incremental rides per available driver hour, not only acquisition cost.
-- Move inactive riders into behavior-triggered drip sequences after first ride, cancellation, or referral events.
-- Shift paid media away from markets where supply saturation blocks conversion into completed rides.
+- Shift budget to supply-cleared acquisition: Move one week of low-efficiency paid spend into this market and review completed rides per available driver hour.
+- Do not scale paid media where supply blocks conversion: Hold acquisition spend until driver activation, ride acceptance, and wait-time guardrails clear.
+- Scale the highest-lift drip trigger: Ship the copy variant with market-specific wait-time language and keep the holdout cell active.
+- Use field marketing where conversion is visible: Refresh QR source tags weekly and pair each placement with a driver referral code.

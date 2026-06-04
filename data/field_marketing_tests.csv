@@ -1,0 +1,41 @@
+market_id,market,placement_id,placement,units,impressions,qr_scans,ride_requests,completed_rides,program_cost,estimated_value,roi,supply_coverage_pct,operator_note
+MKT-DC,Capital Core,FIELD-WRAP,Vehicle exterior wrap,43,23449,330,70,54,80396,7206,-0.91,91.0,Refresh creative
+MKT-DC,Capital Core,FIELD-DOOR,Door decal,81,37353,355,59,46,68772,6791,-0.901,91.0,Refresh creative
+MKT-DC,Capital Core,FIELD-SEAT,Back-seat card,83,45567,920,226,176,38242,27957,-0.269,91.0,Refresh creative
+MKT-DC,Capital Core,FIELD-QR,QR receipt card,18,14976,249,66,51,4846,7034,0.452,91.0,Scale
+MKT-DC,Capital Core,FIELD-AIRPORT,Airport staging flyer,49,23553,333,63,49,62605,7001,-0.888,91.0,Refresh creative
+MKT-BAL,Harbor Commuter,FIELD-WRAP,Vehicle exterior wrap,65,35759,428,84,64,108225,8027,-0.926,86.0,Refresh creative
+MKT-BAL,Harbor Commuter,FIELD-DOOR,Door decal,30,24263,212,33,25,25502,3730,-0.854,86.0,Refresh creative
+MKT-BAL,Harbor Commuter,FIELD-SEAT,Back-seat card,75,29256,646,147,112,31429,14782,-0.53,86.0,Refresh creative
+MKT-BAL,Harbor Commuter,FIELD-QR,QR receipt card,36,30184,471,117,89,10217,11724,0.147,86.0,Scale
+MKT-BAL,Harbor Commuter,FIELD-AIRPORT,Airport staging flyer,27,16284,167,29,22,33495,2828,-0.916,86.0,Refresh creative
+MKT-NYC,Metro Outer Boroughs,FIELD-WRAP,Vehicle exterior wrap,6,6088,92,20,14,9965,1338,-0.866,73.0,Refresh creative
+MKT-NYC,Metro Outer Boroughs,FIELD-DOOR,Door decal,18,10768,85,15,10,16178,1531,-0.905,73.0,Refresh creative
+MKT-NYC,Metro Outer Boroughs,FIELD-SEAT,Back-seat card,42,40391,936,242,175,15100,19061,0.262,73.0,Scale
+MKT-NYC,Metro Outer Boroughs,FIELD-QR,QR receipt card,20,14160,392,111,80,6861,9629,0.403,73.0,Scale
+MKT-NYC,Metro Outer Boroughs,FIELD-AIRPORT,Airport staging flyer,39,15646,121,24,17,52389,2744,-0.948,73.0,Refresh creative
+MKT-MIA,South Florida Launch,FIELD-WRAP,Vehicle exterior wrap,44,16758,176,45,31,72007,4100,-0.943,62.0,Hold for driver supply
+MKT-MIA,South Florida Launch,FIELD-DOOR,Door decal,31,9554,90,18,12,25566,1209,-0.953,62.0,Hold for driver supply
+MKT-MIA,South Florida Launch,FIELD-SEAT,Back-seat card,29,9204,167,49,33,10524,3650,-0.653,62.0,Hold for driver supply
+MKT-MIA,South Florida Launch,FIELD-QR,QR receipt card,43,30738,467,152,105,14585,14837,0.017,62.0,Hold for driver supply
+MKT-MIA,South Florida Launch,FIELD-AIRPORT,Airport staging flyer,26,11146,143,33,22,26002,3562,-0.863,62.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-WRAP,Vehicle exterior wrap,44,31194,459,123,82,79830,13334,-0.833,55.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-DOOR,Door decal,24,7479,85,18,12,17235,1868,-0.892,55.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-SEAT,Back-seat card,40,26174,567,177,118,14106,16557,0.174,55.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-QR,QR receipt card,16,10053,248,84,56,4631,5626,0.215,55.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-AIRPORT,Airport staging flyer,39,14381,167,40,26,40932,3824,-0.907,55.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-WRAP,Vehicle exterior wrap,17,5618,47,12,7,25662,965,-0.962,52.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-DOOR,Door decal,43,31033,308,63,41,31225,6536,-0.791,52.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-SEAT,Back-seat card,20,10497,253,76,50,7752,5437,-0.299,52.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-QR,QR receipt card,9,4782,135,44,29,3092,3835,0.24,52.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-AIRPORT,Airport staging flyer,5,3312,30,7,4,6761,402,-0.941,52.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-WRAP,Vehicle exterior wrap,44,17400,221,60,39,73427,5585,-0.924,49.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-DOOR,Door decal,44,13453,104,22,14,32406,1372,-0.958,49.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-SEAT,Back-seat card,10,5553,82,26,16,3476,2239,-0.356,49.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-QR,QR receipt card,23,6727,144,50,32,6125,4803,-0.216,49.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-AIRPORT,Airport staging flyer,43,19151,202,49,31,47115,3677,-0.922,49.0,Hold for driver supply
+MKT-GSO,Triad Local,FIELD-WRAP,Vehicle exterior wrap,40,17100,200,38,26,60116,2979,-0.95,66.0,Refresh creative
+MKT-GSO,Triad Local,FIELD-DOOR,Door decal,7,3445,31,4,2,5583,252,-0.955,66.0,Refresh creative
+MKT-GSO,Triad Local,FIELD-SEAT,Back-seat card,11,6096,119,26,18,5000,2990,-0.402,66.0,Refresh creative
+MKT-GSO,Triad Local,FIELD-QR,QR receipt card,14,8234,143,35,24,4247,3531,-0.169,66.0,Refresh creative
+MKT-GSO,Triad Local,FIELD-AIRPORT,Airport staging flyer,13,6298,77,13,9,13002,1083,-0.917,66.0,Refresh creative

@@ -1,5 +1,7 @@
 # Analysis Plan
 
-1. Validate source freshness and owner coverage.
-2. Score each signal by business impact, data quality, and actionability.
-3. Promote the highest-risk items into the recommendation memo.
+1. Segment markets by supply coverage, rider demand, repeat usage, and growth stage.
+2. Score acquisition and lifecycle campaigns by incremental rides, ROI, and incremental rides per available driver hour.
+3. Separate paid media decisions from driver-side marketplace constraints so spend is not scaled where supply cannot convert requests into completed rides.
+4. Evaluate drip campaigns with holdout conversion, lift, and triggered cohort behavior.
+5. Prioritize vehicle-exterior and in-vehicle programs only where source-tagged scans and completed rides exceed the operating hurdle.

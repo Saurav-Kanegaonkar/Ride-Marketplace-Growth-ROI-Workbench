@@ -1,4 +1,4 @@
-window.workbenchData = {
+{
   "summary": {
     "blended_roi": 0.58,
     "incremental_rides": 447719,
@@ -1188,4 +1188,4 @@ window.workbenchData = {
       "owner": "Field operations"
     }
   ]
-};
+}

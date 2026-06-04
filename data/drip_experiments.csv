@@ -1,0 +1,41 @@
+market_id,market,program_id,trigger,cohort,messages_sent,open_rate_pct,click_rate_pct,conversion_rate_pct,holdout_conversion_rate_pct,lift_pct,incremental_rides,estimated_value,deployment_status
+MKT-DC,Capital Core,DRIP-FIRST,First ride completion,New rider,5548,49.2,22.4,40.4,36.5,10.6,48,519,Tune copy
+MKT-DC,Capital Core,DRIP-CANCEL,Canceled request recovery,At risk,5065,39.0,17.5,36.6,29.7,23.0,60,687,Needs QA
+MKT-DC,Capital Core,DRIP-FAVORITE,Favorite driver prompt,Activated,4670,42.4,16.5,35.5,27.8,27.7,59,619,Needs QA
+MKT-DC,Capital Core,DRIP-QUIET,Dormant rider winback,Dormant,9780,35.0,14.0,28.1,21.1,33.3,95,1273,Needs QA
+MKT-DC,Capital Core,DRIP-REFERRAL,Referral nudge,Advocate,4870,42.0,14.2,29.5,22.5,31.0,48,579,Scale
+MKT-BAL,Harbor Commuter,DRIP-FIRST,First ride completion,New rider,4886,48.2,20.4,40.7,30.9,31.7,97,1212,Needs QA
+MKT-BAL,Harbor Commuter,DRIP-CANCEL,Canceled request recovery,At risk,8831,41.7,17.2,31.3,23.7,32.1,115,1273,Scale
+MKT-BAL,Harbor Commuter,DRIP-FAVORITE,Favorite driver prompt,Activated,11420,41.9,16.6,34.6,29.4,17.7,98,1047,Tune copy
+MKT-BAL,Harbor Commuter,DRIP-QUIET,Dormant rider winback,Dormant,6381,34.0,13.5,28.9,21.3,35.8,65,868,Scale
+MKT-BAL,Harbor Commuter,DRIP-REFERRAL,Referral nudge,Advocate,2736,41.7,14.4,30.2,26.6,13.7,14,192,Needs QA
+MKT-NYC,Metro Outer Boroughs,DRIP-FIRST,First ride completion,New rider,3838,53.3,22.7,35.2,28.0,25.9,63,673,Needs QA
+MKT-NYC,Metro Outer Boroughs,DRIP-CANCEL,Canceled request recovery,At risk,1491,45.0,19.0,31.5,25.1,25.9,18,227,Tune copy
+MKT-NYC,Metro Outer Boroughs,DRIP-FAVORITE,Favorite driver prompt,Activated,3302,42.4,16.4,33.6,28.5,18.1,27,244,Scale
+MKT-NYC,Metro Outer Boroughs,DRIP-QUIET,Dormant rider winback,Dormant,3770,31.6,11.8,26.6,16.9,57.6,43,470,Needs QA
+MKT-NYC,Metro Outer Boroughs,DRIP-REFERRAL,Referral nudge,Advocate,2286,38.1,13.2,25.4,18.0,40.9,22,301,Needs QA
+MKT-MIA,South Florida Launch,DRIP-FIRST,First ride completion,New rider,4350,53.4,22.0,33.2,29.4,13.1,36,343,Tune copy
+MKT-MIA,South Florida Launch,DRIP-CANCEL,Canceled request recovery,At risk,2478,43.2,18.2,32.3,25.3,27.5,31,302,Tune copy
+MKT-MIA,South Florida Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,6282,49.5,19.9,34.1,27.9,22.4,78,799,Needs QA
+MKT-MIA,South Florida Launch,DRIP-QUIET,Dormant rider winback,Dormant,4848,30.6,14.0,22.5,15.4,45.8,47,605,Needs QA
+MKT-MIA,South Florida Launch,DRIP-REFERRAL,Referral nudge,Advocate,1517,40.4,14.0,30.8,27.2,12.9,7,75,Scale
+MKT-HOU,Gulf Launch,DRIP-FIRST,First ride completion,New rider,1735,44.7,20.0,31.7,25.8,22.9,20,270,Tune copy
+MKT-HOU,Gulf Launch,DRIP-CANCEL,Canceled request recovery,At risk,2578,40.3,14.0,32.6,27.6,18.3,18,206,Tune copy
+MKT-HOU,Gulf Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,3795,40.0,17.7,31.5,21.7,45.3,65,884,Pilot
+MKT-HOU,Gulf Launch,DRIP-QUIET,Dormant rider winback,Dormant,3732,37.6,9.1,22.1,18.2,21.0,12,131,Scale
+MKT-HOU,Gulf Launch,DRIP-REFERRAL,Referral nudge,Advocate,1790,41.8,12.7,28.5,21.7,31.2,15,144,Pilot
+MKT-DFW,North Texas Launch,DRIP-FIRST,First ride completion,New rider,5865,48.2,20.7,32.7,25.1,30.7,93,1250,Tune copy
+MKT-DFW,North Texas Launch,DRIP-CANCEL,Canceled request recovery,At risk,5305,45.9,15.6,33.5,27.4,22.2,50,611,Scale
+MKT-DFW,North Texas Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,5952,47.5,20.2,31.0,20.7,50.2,125,1370,Needs QA
+MKT-DFW,North Texas Launch,DRIP-QUIET,Dormant rider winback,Dormant,1490,37.2,10.9,23.8,14.0,70.3,16,165,Scale
+MKT-DFW,North Texas Launch,DRIP-REFERRAL,Referral nudge,Advocate,5354,37.8,14.4,24.7,19.0,30.0,43,406,Pilot
+MKT-ATL,Southeast Launch,DRIP-FIRST,First ride completion,New rider,2476,49.6,18.4,32.8,22.1,48.7,48,652,Scale
+MKT-ATL,Southeast Launch,DRIP-CANCEL,Canceled request recovery,At risk,5655,37.5,16.1,33.1,23.3,42.4,89,1104,Pilot
+MKT-ATL,Southeast Launch,DRIP-FAVORITE,Favorite driver prompt,Activated,2563,47.6,20.3,32.4,23.9,35.8,44,528,Needs QA
+MKT-ATL,Southeast Launch,DRIP-QUIET,Dormant rider winback,Dormant,4702,29.9,11.3,26.4,22.1,19.9,23,226,Scale
+MKT-ATL,Southeast Launch,DRIP-REFERRAL,Referral nudge,Advocate,3828,40.3,15.0,24.1,15.6,54.3,48,491,Tune copy
+MKT-GSO,Triad Local,DRIP-FIRST,First ride completion,New rider,2904,47.5,18.5,38.8,28.0,38.7,58,812,Scale
+MKT-GSO,Triad Local,DRIP-CANCEL,Canceled request recovery,At risk,3917,42.5,17.2,29.2,20.0,45.8,61,866,Needs QA
+MKT-GSO,Triad Local,DRIP-FAVORITE,Favorite driver prompt,Activated,3457,45.3,18.4,30.7,25.1,22.0,35,337,Scale
+MKT-GSO,Triad Local,DRIP-QUIET,Dormant rider winback,Dormant,2014,30.2,11.6,23.3,16.8,38.5,15,150,Tune copy
+MKT-GSO,Triad Local,DRIP-REFERRAL,Referral nudge,Advocate,2935,43.4,14.0,31.0,22.5,37.9,35,437,Pilot

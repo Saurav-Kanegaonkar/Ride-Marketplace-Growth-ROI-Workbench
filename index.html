@@ -6,30 +6,71 @@
   <title>Ride Marketplace Growth ROI Workbench</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body class="console">
+<body>
   <main class="app">
-    <header class="hero">
-      <p class="eyebrow">growth analytics dashboard</p>
+    <header class="topbar">
+      <p class="eyebrow">growth ROI operating workbench</p>
       <h1>Ride Marketplace Growth ROI Workbench</h1>
-      <p>Marketplace operators need to know which acquisition, drip, paid media, and in-vehicle campaigns actually move trips without wasting local spend.</p>
+      <p>Prioritize acquisition, lifecycle, and field-marketing spend by completed rides, available driver hours, holdout lift, and local supply readiness.</p>
     </header>
-    <section class="metric-grid" id="metrics"></section>
-    <section class="workspace">
-      <article class="panel primary">
-        <span>Output 2</span>
-        <h2>Diagnostic Queue</h2>
-        <div id="table"></div>
-      </article>
-      <aside class="panel">
-        <span>Output 3</span>
-        <h2>What The Data Says</h2>
-        <div id="signals"></div>
-      </aside>
+
+    <section class="metric-grid" id="metrics" aria-label="Portfolio metrics"></section>
+
+    <nav class="tabs" aria-label="Workbench surfaces">
+      <button class="active" type="button" data-view="cockpit">Market ROI</button>
+      <button type="button" data-view="drip">Drip Lab</button>
+      <button type="button" data-view="field">Field Planner</button>
+      <button type="button" data-view="memo">Memo</button>
+    </nav>
+
+    <section class="view active" id="cockpitView" aria-label="Market ROI cockpit">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">surface 1</p>
+          <h2>Market ROI cockpit</h2>
+        </div>
+        <p>Find markets where rider acquisition can scale without outrunning driver availability.</p>
+      </div>
+      <section class="split">
+        <div id="marketList" class="rank-list" aria-label="Market readiness ranking"></div>
+        <div class="table-wrap" id="campaignTable"></div>
+      </section>
     </section>
-    <section class="panel recommendations">
-      <span>Output 4</span>
-      <h2>Analytical Recommendations</h2>
-      <div id="recs"></div>
+
+    <section class="view" id="dripView" aria-label="Drip campaign lab">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">surface 2</p>
+          <h2>Drip campaign lab</h2>
+        </div>
+        <p>Compare trigger-based lifecycle campaigns by holdout lift, conversion, and incremental rides.</p>
+      </div>
+      <div id="dripGrid" class="experiment-grid"></div>
+    </section>
+
+    <section class="view" id="fieldView" aria-label="Field marketing planner">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">surface 3</p>
+          <h2>Field marketing planner</h2>
+        </div>
+        <p>Decide where vehicle-exterior and in-vehicle marketing should scale, pause, or refresh.</p>
+      </div>
+      <section class="split">
+        <div id="fieldList" class="rank-list" aria-label="Field marketing ranking"></div>
+        <div class="table-wrap" id="qualityTable"></div>
+      </section>
+    </section>
+
+    <section class="view" id="memoView" aria-label="Recommendation memo">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">surface 4</p>
+          <h2>Recommendation memo</h2>
+        </div>
+        <p>Translate the analysis into operating moves for growth, lifecycle, marketplace operations, and field teams.</p>
+      </div>
+      <div id="memoList" class="memo-list"></div>
     </section>
   </main>
   <script src="src/data.js"></script>

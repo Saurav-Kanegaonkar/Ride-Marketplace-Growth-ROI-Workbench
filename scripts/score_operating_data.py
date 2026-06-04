@@ -1,32 +1,57 @@
 import csv
 from collections import defaultdict
 
-scores = defaultdict(list)
-quality_failures = defaultdict(float)
-value = defaultdict(float)
 
-with open("data/daily_metrics.csv", newline="") as f:
-    for row in csv.DictReader(f):
-        scores[row["entity_id"]].append(float(row["priority_score"]))
+def read_csv(path):
+    with open(path, newline="") as f:
+        return list(csv.DictReader(f))
 
-with open("data/data_quality_checks.csv", newline="") as f:
-    for row in csv.DictReader(f):
-        quality_failures[row["table_name"]] += float(row["failed_records"])
 
-with open("data/recommended_actions.csv", newline="") as f:
-    for row in csv.DictReader(f):
-        value[row["entity_id"]] += float(row["expected_value_or_cost_avoidance"])
+campaign_rows = read_csv("data/campaign_performance.csv")
+drip_rows = read_csv("data/drip_experiments.csv")
+field_rows = read_csv("data/field_marketing_tests.csv")
+quality_rows = read_csv("data/data_quality_checks.csv")
 
-ranked = []
-for entity_id, entity_scores in scores.items():
-    avg_priority = sum(entity_scores) / len(entity_scores)
-    action_value = value[entity_id]
-    ranked.append((avg_priority + action_value / 50000, entity_id, avg_priority, action_value))
+campaigns = defaultdict(lambda: {"spend": 0.0, "incremental_rides": 0, "driver_efficiency": []})
+for row in campaign_rows:
+    key = (row["market"], row["channel"])
+    campaigns[key]["spend"] += float(row["spend"])
+    campaigns[key]["incremental_rides"] += int(row["incremental_rides"])
+    campaigns[key]["driver_efficiency"].append(float(row["incremental_rides_per_100_driver_hours"]))
 
-print("Top entity priorities")
-for rank, (score, entity_id, avg_priority, action_value) in enumerate(sorted(ranked, reverse=True)[:10], start=1):
-    print(f"{rank}. {entity_id}: composite={score:.1f}, avg_priority={avg_priority:.1f}, action_value=$" + format(action_value, ",.0f"))
+print("Top campaign ROI opportunities")
+ranked_campaigns = []
+for (market, channel), values in campaigns.items():
+    value = values["incremental_rides"] * 18.5
+    roi = (value - values["spend"]) / values["spend"] if values["spend"] else 0
+    efficiency = sum(values["driver_efficiency"]) / len(values["driver_efficiency"])
+    ranked_campaigns.append((roi, efficiency, market, channel, values))
 
-print("\nData quality hotspots")
-for table_name, failed in sorted(quality_failures.items(), key=lambda item: item[1], reverse=True)[:5]:
-    print(f"{table_name}: failed_records=" + format(failed, ",.0f"))
+for rank, (roi, efficiency, market, channel, values) in enumerate(sorted(ranked_campaigns, reverse=True)[:10], start=1):
+    print(
+        f"{rank}. {market} | {channel}: roi={roi:.2f}x, "
+        f"incremental_rides={values['incremental_rides']:,}, "
+        f"rides_per_100_driver_hours={efficiency:.2f}"
+    )
+
+print("\nTop drip triggers")
+for rank, row in enumerate(sorted(drip_rows, key=lambda item: float(item["lift_pct"]), reverse=True)[:8], start=1):
+    print(
+        f"{rank}. {row['market']} | {row['trigger']}: "
+        f"lift={float(row['lift_pct']):.1f}%, incremental_rides={int(row['incremental_rides']):,}"
+    )
+
+print("\nField marketing scale candidates")
+for rank, row in enumerate(sorted(field_rows, key=lambda item: float(item["roi"]), reverse=True)[:8], start=1):
+    print(
+        f"{rank}. {row['market']} | {row['placement']}: "
+        f"roi={float(row['roi']):.2f}x, scans={int(row['qr_scans']):,}, "
+        f"completed_rides={int(row['completed_rides']):,}, note={row['operator_note']}"
+    )
+
+print("\nData quality gates")
+for row in sorted(quality_rows, key=lambda item: (item["status"] != "Fail", -int(item["failed_records"])))[:8]:
+    print(
+        f"{row['table_name']} | {row['check_type']}: "
+        f"status={row['status']}, failed_records={int(row['failed_records']):,}, fix={row['fix']}"
+    )

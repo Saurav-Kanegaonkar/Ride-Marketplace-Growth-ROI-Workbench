@@ -1,0 +1,19 @@
+market_id,market,placement_id,placement,units,impressions,qr_scans,ride_requests,completed_rides,program_cost,estimated_value,roi,supply_coverage_pct,operator_note
+MKT-DC,Capital Core,FIELD-QR,QR receipt card,18,14976,249,66,51,4846,7034,0.452,91.0,Scale
+MKT-NYC,Metro Outer Boroughs,FIELD-QR,QR receipt card,20,14160,392,111,80,6861,9629,0.403,73.0,Scale
+MKT-NYC,Metro Outer Boroughs,FIELD-SEAT,Back-seat card,42,40391,936,242,175,15100,19061,0.262,73.0,Scale
+MKT-DFW,North Texas Launch,FIELD-QR,QR receipt card,9,4782,135,44,29,3092,3835,0.24,52.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-QR,QR receipt card,16,10053,248,84,56,4631,5626,0.215,55.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-SEAT,Back-seat card,40,26174,567,177,118,14106,16557,0.174,55.0,Hold for driver supply
+MKT-BAL,Harbor Commuter,FIELD-QR,QR receipt card,36,30184,471,117,89,10217,11724,0.147,86.0,Scale
+MKT-MIA,South Florida Launch,FIELD-QR,QR receipt card,43,30738,467,152,105,14585,14837,0.017,62.0,Hold for driver supply
+MKT-GSO,Triad Local,FIELD-QR,QR receipt card,14,8234,143,35,24,4247,3531,-0.169,66.0,Refresh creative
+MKT-ATL,Southeast Launch,FIELD-QR,QR receipt card,23,6727,144,50,32,6125,4803,-0.216,49.0,Hold for driver supply
+MKT-DC,Capital Core,FIELD-SEAT,Back-seat card,83,45567,920,226,176,38242,27957,-0.269,91.0,Refresh creative
+MKT-DFW,North Texas Launch,FIELD-SEAT,Back-seat card,20,10497,253,76,50,7752,5437,-0.299,52.0,Hold for driver supply
+MKT-ATL,Southeast Launch,FIELD-SEAT,Back-seat card,10,5553,82,26,16,3476,2239,-0.356,49.0,Hold for driver supply
+MKT-GSO,Triad Local,FIELD-SEAT,Back-seat card,11,6096,119,26,18,5000,2990,-0.402,66.0,Refresh creative
+MKT-BAL,Harbor Commuter,FIELD-SEAT,Back-seat card,75,29256,646,147,112,31429,14782,-0.53,86.0,Refresh creative
+MKT-MIA,South Florida Launch,FIELD-SEAT,Back-seat card,29,9204,167,49,33,10524,3650,-0.653,62.0,Hold for driver supply
+MKT-DFW,North Texas Launch,FIELD-DOOR,Door decal,43,31033,308,63,41,31225,6536,-0.791,52.0,Hold for driver supply
+MKT-HOU,Gulf Launch,FIELD-WRAP,Vehicle exterior wrap,44,31194,459,123,82,79830,13334,-0.833,55.0,Hold for driver supply

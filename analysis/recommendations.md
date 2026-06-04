@@ -1,21 +1,33 @@
-# Analytical Recommendations
+# Recommendation Memo
 
-## What Stands Out
+## P0 Shift budget to supply-cleared acquisition
 
-- Driver-side supply gaps distort acquisition ROI when rider campaigns are judged without market capacity context.
-- Drip campaigns improve retention most when triggered by first-ride completion rather than account creation.
-- Vehicle-exterior advertising works best in dense markets, but only after excluding markets with low repeat usage.
+Evidence: Driver referral in Capital Core is modeled at 1.91x ROI with 0.51 incremental rides per 100 driver hours.
 
-## Recommended Operating Moves
+Next step: Move one week of low-efficiency paid spend into this market and review completed rides per available driver hour.
 
-- Score every campaign by incremental rides per available driver hour, not only acquisition cost.
-- Move inactive riders into behavior-triggered drip sequences after first ride, cancellation, or referral events.
-- Shift paid media away from markets where supply saturation blocks conversion into completed rides.
+Owner: Growth analytics
 
-## How I Would Use The Data
+## P0 Do not scale paid media where supply blocks conversion
 
-1. Start with `daily_metrics.csv` to identify entities with worsening priority scores.
-2. Join `source_events.csv` to separate true business movement from freshness or definition issues.
-3. Use `stakeholder_requirements.csv` to confirm whether the dashboard is answering a decision, not just visualizing a number.
-4. Use `data_quality_checks.csv` to block recommendations where the source is unreliable.
-5. Push the final action queue from `recommended_actions.csv` into roadmap or operating review follow-up.
+Evidence: Gulf Launch has 55.0% supply coverage while Paid social still consumed $249,690.
+
+Next step: Hold acquisition spend until driver activation, ride acceptance, and wait-time guardrails clear.
+
+Owner: Marketplace operations
+
+## P1 Scale the highest-lift drip trigger
+
+Evidence: Dormant rider winback produced 70.3% lift and 16 incremental rides in the modeled holdout design.
+
+Next step: Ship the copy variant with market-specific wait-time language and keep the holdout cell active.
+
+Owner: Lifecycle marketing
+
+## P1 Use field marketing where conversion is visible
+
+Evidence: QR receipt card in Capital Core has 249 modeled scans and 0.452x ROI.
+
+Next step: Refresh QR source tags weekly and pair each placement with a driver referral code.
+
+Owner: Field operations
